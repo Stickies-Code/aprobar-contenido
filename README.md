@@ -1,0 +1,29 @@
+# Aprobar contenido · Criscolor
+
+Web para que dirección apruebe o comente cada semana los posts (martes y jueves) y las tandas de historias (lunes, miércoles y viernes) de Instagram.
+
+## Puesta en marcha (una sola vez)
+
+1. **Vercel → Add New → Project →** importar `Stickies-Code/aprobar-contenido`. Sin build ni ajustes: es estático + funciones en `/api`.
+2. **Proyecto → Storage → Connect Database → Upstash for Redis** (plan gratuito) → conectar a Production y Preview.
+   Vercel añade solo las variables `KV_REST_API_URL` y `KV_REST_API_TOKEN`.
+3. **Redeploy.** Comprueba en la web que arriba pone «0 de 5 piezas aprobadas» (si pone «La base de datos aún no está conectada», falta el paso 2).
+4. Si el proyecto tiene *Deployment Protection* activada, desactívala para Production para que el enlace se abra sin login de Vercel.
+
+## Cómo funciona
+
+- Cada persona escribe su nombre la primera vez (se guarda en su navegador).
+- 👍 Aprobar / volver a pulsar para retirar el aprobado. Comentarios por pieza; cada uno puede borrar los suyos.
+- La página se actualiza sola cada 20 s, así que ves los aprobados en directo.
+- Datos en Redis: `rev:<semana>` (aprobados) y `com:<semana>` (comentarios).
+
+## Añadir una semana
+
+1. Sube las imágenes a `/img` con el nombre `<id de la pieza>-<n>.jpg` (p. ej. `p46-mar-1.jpg`), en 4:5 para posts y 9:16 para historias, ~810 px de ancho.
+2. Añade el bloque de la semana al final de `data/weeks.js` (copia el anterior y cambia `id`, fechas, textos y `n` = nº de imágenes).
+3. Commit + push: Vercel lo publica y la nueva semana aparece como pestaña (la última es la que se abre por defecto). Enlace directo a una semana: `/#w46`.
+4. Si cambias una imagen ya publicada, súbele `v: 2` a esa pieza para saltar la caché.
+
+## En local
+
+`npm run dev` → http://localhost:3000 (base de datos en memoria, solo para probar).

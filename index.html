@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Aprobación Instagram · Criscolor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="/assets/app.css?v=1">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span><span class="cris">CRIS</span>COLOR</span> <small>Instagram · Aprobación semanal</small></div>
+    <h1 id="wkTitle">Contenido de la semana</h1>
+    <p class="lede">Publicaciones martes y jueves, tandas de historias lunes, miércoles y viernes. Revisa cada pieza: pulsa <b>👍 Aprobar</b> si está lista o déjanos un comentario con lo que cambiarías.</p>
+    <div class="reviewer" id="reviewer"></div>
+    <div class="weeks" id="weeks" role="group" aria-label="Semana"></div>
+    <div class="progress"><span id="progTxt">Cargando…</span><div class="bar"><i id="progBar"></i></div></div>
+    <nav class="summary" id="summary" aria-label="Resumen de la semana"></nav>
+    <p class="notice" id="notice" hidden></p>
+  </header>
+  <main id="main"></main>
+  <footer>Criscolor · Paterna (Valencia) · Los aprobados y comentarios se guardan al momento y los ve todo el equipo.</footer>
+</div>
+
+<div class="modal" id="nameModal" hidden>
+  <form id="nameForm">
+    <h3>¿Quién revisa?</h3>
+    <p>Escribe tu nombre para que el equipo sepa quién aprueba o comenta. Solo te lo pedimos una vez en este dispositivo.</p>
+    <input id="nameInput" name="name" maxlength="40" autocomplete="name" placeholder="Tu nombre" required>
+    <div class="row"><button type="button" id="nameCancel">Cancelar</button><button type="submit">Guardar</button></div>
+  </form>
+</div>
+
+<script src="/data/weeks.js?v=1"></script>
+<script src="/assets/app.js?v=1"></script>
+</body>
+</html>
