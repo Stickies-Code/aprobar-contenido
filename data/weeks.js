@@ -1,9 +1,9 @@
 /* Contenido por semanas. Para añadir una semana: copia un bloque, cambia id/fechas y sube las imágenes a /img con el nombre <id>-<n>.jpg */
 window.WEEKS = [
  { id:'w45', label:'Semana 45 · 2–6 nov', title:'Semana del <em>2 al 6</em> de noviembre', items:[
-  { id:'s45-lun', v:2, type:'story', day:'Lunes', date:'2 nov', title:'Junto a la caja', n:3,
-    goal:'Arrancamos la semana con un dato que le interesa a cualquier tendero: el sitio de la tienda que más vende sin esfuerzo, y qué poner en él.',
-    notes:['3 historias: el dato (el metro cuadrado que más vende), 3 productos de impulso con referencia (lazos estrella 43030, gafas Árbol 45035 y cañón de confeti 44251) y caja de preguntas.','En la 2ª va el sticker de enlace «Ver catálogo».','En la 3ª va el sticker de caja de preguntas «Cuéntanoslo».','Hora recomendada: 9:30.'] },
+  { id:'s45-lun', v:3, type:'story', day:'Lunes', date:'2 nov', title:'Junto a la caja', n:3,
+    goal:'Arrancamos la semana con información útil para el tendero: el sitio de la tienda que más vende sin esfuerzo, qué poner en él y cómo organizarlo.',
+    notes:['3 historias: el dato (el metro cuadrado que más vende), 3 productos de impulso con referencia (lazos estrella 43030, gafas Árbol 45035 y cañón de confeti 44251) y 3 reglas para la zona de caja.','En la 3ª va el sticker de enlace «Ver catálogo».','Hora recomendada: 9:30.'] },
   { id:'p45-mar', v:2, type:'post', day:'Martes', date:'3 nov', title:'Qué calefactor vender a cada cliente', n:5,
     goal:'Carrusel de valor con la gama de calefacción, que es lo primero que se vende cuando llega el frío: tres perfiles de cliente y qué modelo recomendar a cada uno.',
     copy:`¿Qué calefactor le vendes a cada cliente? 🔥
@@ -43,8 +43,8 @@ Del primer frío a Reyes, esto es lo que conviene tener en tienda en cada moment
 
 #Criscolor #Navidad2026 #Nochevieja #ReyesMagos #IdeasParaTiendas #ComercioLocal #MayoristaNavidad`,
     notes:['Carrusel de 5 diapositivas 4:5.','Hora recomendada: 13:00.'] },
-  { id:'s45-vie', type:'story', day:'Viernes', date:'6 nov', title:'¿Cuánto sabes de Criscolor?', n:3,
-    goal:'Cerramos la semana con interacción: un quiz sobre el catálogo y una caja de preguntas para saber qué producto quieren ver.',
-    notes:['3 historias: pregunta con sticker de quiz (A/B/C), respuesta (4.250 referencias) y caja de preguntas.','En la 2ª va el sticker de enlace «Ver catálogo».','Hora recomendada: 12:00.'] }
+  { id:'s45-vie', v:2, type:'story', day:'Viernes', date:'6 nov', title:'Criscolor en datos', n:3,
+    goal:'Cerramos la semana presentando a Criscolor con datos: el tamaño del catálogo, las familias de la campaña de invierno y cómo se trabaja con nosotros.',
+    notes:['3 historias: 4.250 referencias en catálogo, las 12 familias de la campaña de invierno y cómo pedir (solo profesionales, pedido mínimo 500 €, 25+ comerciales).','En la 3ª va el sticker de enlace «Ver catálogo».','Hora recomendada: 12:00.'] }
  ]}
 ];
