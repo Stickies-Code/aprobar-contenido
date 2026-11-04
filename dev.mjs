@@ -1,6 +1,6 @@
 // Servidor local: sirve la web y la API con una base de datos en memoria.  npm run dev → http://localhost:3000
 import http from 'node:http'; import fs from 'node:fs'; import path from 'node:path';
-const routes = { '/api/state': './api/state.js', '/api/review': './api/review.js', '/api/comment': './api/comment.js' };
+const routes = { '/api/state': './api/state.js', '/api/review': './api/review.js' };
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml' };
 http.createServer(async (req, res) => {
   const p = new URL(req.url, 'http://x').pathname;

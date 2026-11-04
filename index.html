@@ -8,34 +8,30 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="/assets/app.css?v=3">
+<link rel="stylesheet" href="/assets/app.css?v=5">
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <div class="brand"><img class="logo logo-l" src="/assets/logo.svg" alt="Criscolor" width="155" height="31"><img class="logo logo-d" src="/assets/logo-w.svg" alt="" aria-hidden="true" width="155" height="31"><small>Instagram · Aprobación semanal</small></div>
-    <h1 id="wkTitle">Contenido de la semana</h1>
-    <p class="lede">Publicaciones martes y jueves, tandas de historias lunes, miércoles y viernes. Revisa cada pieza: pulsa <b>👍 Aprobar</b> si está lista o déjanos un comentario con lo que cambiarías.</p>
-    <div class="reviewer" id="reviewer"></div>
+    <img class="logo logo-l" src="/assets/logo.svg" alt="Criscolor" width="155" height="31">
+    <img class="logo logo-d" src="/assets/logo-w.svg" alt="" aria-hidden="true" width="155" height="31">
+    <h1 id="wkTitle">Semana</h1>
     <div class="weeks" id="weeks" role="group" aria-label="Semana"></div>
-    <div class="progress"><span id="progTxt">Cargando…</span><div class="bar"><i id="progBar"></i></div></div>
-    <nav class="summary" id="summary" aria-label="Resumen de la semana"></nav>
     <p class="notice" id="notice" hidden></p>
   </header>
   <main id="main"></main>
-  <footer>Criscolor · Paterna (Valencia) · Los aprobados y comentarios se guardan al momento y los ve todo el equipo.</footer>
 </div>
 
 <div class="modal" id="nameModal" hidden>
   <form id="nameForm">
     <h3>¿Quién revisa?</h3>
-    <p>Escribe tu nombre para que el equipo sepa quién aprueba o comenta. Solo te lo pedimos una vez en este dispositivo.</p>
+    <p>Escribe tu nombre. Solo te lo pedimos una vez.</p>
     <input id="nameInput" name="name" maxlength="40" autocomplete="name" placeholder="Tu nombre" required>
     <div class="row"><button type="button" id="nameCancel">Cancelar</button><button type="submit">Guardar</button></div>
   </form>
 </div>
 
-<script src="/data/weeks.js?v=3"></script>
-<script src="/assets/app.js?v=1"></script>
+<script src="/data/weeks.js?v=5"></script>
+<script src="/assets/app.js?v=4"></script>
 </body>
 </html>

@@ -43,8 +43,8 @@ Del primer frío a Reyes, esto es lo que conviene tener en tienda en cada moment
 
 #Criscolor #Navidad2026 #Nochevieja #ReyesMagos #IdeasParaTiendas #ComercioLocal #MayoristaNavidad`,
     notes:['Carrusel de 5 diapositivas 4:5.','Hora recomendada: 13:00.'] },
-  { id:'s45-vie', v:2, type:'story', day:'Viernes', date:'6 nov', title:'Criscolor en datos', n:3,
-    goal:'Cerramos la semana presentando a Criscolor con datos: el tamaño del catálogo, las familias de la campaña de invierno y cómo se trabaja con nosotros.',
-    notes:['3 historias: 4.250 referencias en catálogo, las 12 familias de la campaña de invierno y cómo pedir (solo profesionales, pedido mínimo 500 €, 25+ comerciales).','En la 3ª va el sticker de enlace «Ver catálogo».','Hora recomendada: 12:00.'] }
+  { id:'s45-vie', v:3, type:'story', day:'Viernes', date:'6 nov', title:'Criscolor en datos', n:2,
+    goal:'Cerramos la semana explicando qué ofrece Criscolor en esta campaña y cómo se trabaja con nosotros, incluida la tienda online para pedidos pequeños.',
+    notes:['2 historias: las 12 familias de la campaña de invierno y cómo pedir (solo profesionales, pedido mínimo 500 € y pedidos al por menor en la tienda online).','En la 2ª, justo debajo de «Clicando aquí 👇», va el sticker de enlace a la tienda online (https://moonecommerce.com/shop).','Hora recomendada: 12:00.'] }
  ]}
 ];

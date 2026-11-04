@@ -7,15 +7,16 @@ Web para que dirección apruebe o comente cada semana los posts (martes y jueves
 1. **Vercel → Add New → Project →** importar `Stickies-Code/aprobar-contenido`. Sin build ni ajustes: es estático + funciones en `/api`.
 2. **Proyecto → Storage → Connect Database → Upstash for Redis** (plan gratuito) → conectar a Production y Preview.
    Vercel añade solo las variables `KV_REST_API_URL` y `KV_REST_API_TOKEN`.
-3. **Redeploy.** Comprueba en la web que arriba pone «0 de 5 piezas aprobadas» (si pone «La base de datos aún no está conectada», falta el paso 2).
+3. **Redeploy.** Comprueba que los botones Aprobar / No aprobar están activos (si sale «La base de datos aún no está conectada», falta el paso 2).
 4. Si el proyecto tiene *Deployment Protection* activada, desactívala para Production para que el enlace se abra sin login de Vercel.
 
 ## Cómo funciona
 
+- Cada pieza muestra solo el día, las imágenes en grande y dos botones: 👍 Aprobar / 👎 No aprobar (volver a pulsar quita la valoración).
+- Los posts llevan su texto en el desplegable «Texto del post», con botón de copiar.
 - Cada persona escribe su nombre la primera vez (se guarda en su navegador).
-- 👍 Aprobar / volver a pulsar para retirar el aprobado. Comentarios por pieza; cada uno puede borrar los suyos.
-- La página se actualiza sola cada 20 s, así que ves los aprobados en directo.
-- Datos en Redis: `rev:<semana>` (aprobados) y `com:<semana>` (comentarios).
+- La página se actualiza sola cada 20 s, así que ves las valoraciones en directo.
+- Datos en Redis: `rev:<semana>` → `{ status: 'ok' | 'no', by, at }` por pieza.
 
 ## Añadir una semana
 
