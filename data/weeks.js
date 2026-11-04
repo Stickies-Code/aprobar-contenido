@@ -1,38 +1,48 @@
 /* Contenido por semanas. Para añadir una semana: copia un bloque, cambia id/fechas y sube las imágenes a /img con el nombre <id>-<n>.jpg */
 window.WEEKS = [
  { id:'w45', label:'Semana 45 · 2–6 nov', title:'Semana del <em>2 al 6</em> de noviembre', items:[
-  { id:'s45-lun', type:'story', day:'Lunes', date:'2 nov', title:'Criscolor por dentro', n:3,
-    goal:'Abrimos la semana presentándonos: quiénes somos y desde dónde servimos a las tiendas. Genera confianza antes de vender.',
-    notes:['3 historias seguidas: la nave (20.000 m²), el equipo (60+ personas, 25+ comerciales) y 7.123 clientes en 13 países.','En la 3ª va el sticker de enlace «Ver catálogo».','Hora recomendada: 9:30.'] },
-  { id:'p45-mar', type:'post', day:'Martes', date:'3 nov', title:'Ya es Navidad en Criscolor', n:1,
-    goal:'Post de arranque de campaña: anuncia que el catálogo de Navidad ya está disponible y lleva tráfico al catálogo interactivo.',
-    copy:`Ya es Navidad en Criscolor 🎄
+  { id:'s45-lun', v:2, type:'story', day:'Lunes', date:'2 nov', title:'Junto a la caja', n:3,
+    goal:'Arrancamos la semana con un dato que le interesa a cualquier tendero: el sitio de la tienda que más vende sin esfuerzo, y qué poner en él.',
+    notes:['3 historias: el dato (el metro cuadrado que más vende), 3 productos de impulso con referencia (lazos estrella 43030, gafas Árbol 45035 y cañón de confeti 44251) y caja de preguntas.','En la 2ª va el sticker de enlace «Ver catálogo».','En la 3ª va el sticker de caja de preguntas «Cuéntanoslo».','Hora recomendada: 9:30.'] },
+  { id:'p45-mar', v:2, type:'post', day:'Martes', date:'3 nov', title:'Qué calefactor vender a cada cliente', n:5,
+    goal:'Carrusel de valor con la gama de calefacción, que es lo primero que se vende cuando llega el frío: tres perfiles de cliente y qué modelo recomendar a cada uno.',
+    copy:`¿Qué calefactor le vendes a cada cliente? 🔥
 
-Este año llegamos con el catálogo de Navidad más completo: papel de regalo, bolsas, lazos, cajas, globos, decoración, vajilla y calefacción. Todo lo que tu tienda necesita para la temporada, en un solo proveedor.
+Cuando llega el frío, la pregunta en tienda siempre es la misma. Te lo ponemos fácil con 3 perfiles:
 
-👉 Descubre el catálogo interactivo en el enlace de la bio.
+🛋️ El que quiere calentar el salón → calefactores de 2000 W con aire frío, tibio y caliente (Atlas, Andes y Fuji).
 
-Venta a profesionales · Paterna (Valencia)
+💻 El que trabaja → cerámicos PTC de mesa, compactos y con termostato ajustable (Everest, Elbrus y Elbrus Plus).
 
-#Criscolor #Navidad2026 #MayoristaNavidad #PapelDeRegalo #ComercioLocal #TiendasDeBarrio`,
-    notes:['Imagen única 4:5.','Hora recomendada: 13:00.','Activar el enlace del catálogo en la bio antes de publicar.'] },
+⚡ El que lo quiere ya → estufas de cuarzo plegables y con asa (Pirineo, Himalaya y Teide).
+
+14 modelos de calefacción en blanco, negro y gris. Venta exclusiva a profesionales · pedido mínimo 500 €.
+
+👉 Toda la gama en el enlace de la bio.
+
+#Criscolor #Calefaccion #Calefactores #EstufaDeCuarzo #MayoristaValencia #ComercioLocal #Invierno2026`,
+    notes:['Carrusel de 5 diapositivas 4:5.','Hora recomendada: 13:00.','En la bio, el enlace debe apuntar a la familia Calefacción del catálogo.'] },
   { id:'s45-mie', type:'story', day:'Miércoles', date:'4 nov', title:'¿Qué calefactor le recomiendas a tu cliente?', n:4,
     goal:'Guía rápida de calefacción para la tienda: tres opciones según el uso (salón, mesa, calor al momento), con referencias reales.',
     notes:['4 historias: portada + 3 opciones con referencia, potencia y colores.','En la 4ª va el sticker de enlace «Ver calefacción».','Hora recomendada: 18:30.'] },
-  { id:'p45-jue', type:'post', day:'Jueves', date:'5 nov', title:'3 claves para un escaparate que vende en Navidad', n:4,
-    goal:'Carrusel de valor para el tendero: ideas prácticas de escaparate usando nuestro producto. Pensado para que lo guarden y lo compartan.',
-    copy:`3 claves para un escaparate que vende en Navidad ✨
+  { id:'p45-jue', v:2, type:'post', day:'Jueves', date:'5 nov', title:'Tu temporada, mes a mes', n:5,
+    goal:'Carrusel para que el tendero planifique sus pedidos: qué tener en tienda en cada momento, del primer frío a Reyes. Pensado para que lo guarden.',
+    copy:`Tu temporada, mes a mes 📅
 
-01 · Juega con la altura. Cuelga a Papá Noel en su escalera y sube los globos a la altura de los ojos: lo que se mueve y se ve de lejos hace que la gente se pare.
+Del primer frío a Reyes, esto es lo que conviene tener en tienda en cada momento:
 
-02 · Un color que mande. Elige dorado o rojo y repítelo en papel, lazos y cajas. Un escaparate con un solo color se ve ordenado y más caro.
+❄️ Noviembre · llega el frío: primero, la calefacción.
 
-03 · El impulso, junto a la caja. Lazos estrella, gafas de Fin de Año y cañones de confeti a mano: pequeños, baratos y se añaden a cualquier compra.
+🎁 Diciembre · regalar: papel, bolsas, lazos y cajas, lo que se vende cada día.
 
-📌 Guárdalo para cuando montes el tuyo. Todo el producto, en el catálogo de Navidad (enlace en la bio).
+🥂 31 de diciembre: confeti, gafas y vajilla dorada para Nochevieja.
 
-#Escaparatismo #EscaparateNavidad #IdeasParaTiendas #Criscolor #ComercioLocal #Navidad2026`,
-    notes:['Carrusel de 4 diapositivas 4:5.','Hora recomendada: 13:00.'] },
+👑 Hasta el 6 de enero: globos gigantes y papel de Reyes para alargar la campaña.
+
+📌 Guárdalo y planifica tus pedidos con tiempo. Todo el catálogo, en el enlace de la bio.
+
+#Criscolor #Navidad2026 #Nochevieja #ReyesMagos #IdeasParaTiendas #ComercioLocal #MayoristaNavidad`,
+    notes:['Carrusel de 5 diapositivas 4:5.','Hora recomendada: 13:00.'] },
   { id:'s45-vie', type:'story', day:'Viernes', date:'6 nov', title:'¿Cuánto sabes de Criscolor?', n:3,
     goal:'Cerramos la semana con interacción: un quiz sobre el catálogo y una caja de preguntas para saber qué producto quieren ver.',
     notes:['3 historias: pregunta con sticker de quiz (A/B/C), respuesta (4.250 referencias) y caja de preguntas.','En la 2ª va el sticker de enlace «Ver catálogo».','Hora recomendada: 12:00.'] }
