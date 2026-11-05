@@ -1,13 +1,13 @@
 /* Contenido por semanas. Imágenes en /img como <id>-<n>.jpg. Cambiar el id de la semana reinicia sus aprobados. */
 window.WEEKS = [
  {
-  "id": "w45-v2",
+  "id": "w45-v3",
   "label": "Semana 45 · 2–6 nov",
   "title": "Semana del <em>2 al 6</em> de noviembre",
   "items": [
    {
     "id": "s45-lun",
-    "v": 4,
+    "v": 5,
     "type": "story",
     "day": "Lunes",
     "date": "2 nov",
@@ -17,7 +17,7 @@ window.WEEKS = [
    },
    {
     "id": "p45-mar",
-    "v": 4,
+    "v": 5,
     "type": "post",
     "day": "Martes",
     "date": "3 nov",
@@ -28,7 +28,7 @@ window.WEEKS = [
    },
    {
     "id": "s45-mie",
-    "v": 4,
+    "v": 5,
     "type": "story",
     "day": "Miércoles",
     "date": "4 nov",
@@ -38,7 +38,7 @@ window.WEEKS = [
    },
    {
     "id": "p45-jue",
-    "v": 4,
+    "v": 5,
     "type": "post",
     "day": "Jueves",
     "date": "5 nov",
@@ -49,7 +49,7 @@ window.WEEKS = [
    },
    {
     "id": "s45-vie",
-    "v": 4,
+    "v": 5,
     "type": "story",
     "day": "Viernes",
     "date": "6 nov",
