@@ -1,60 +1,60 @@
 /* Contenido por semanas. Imágenes en /img como <id>-<n>.jpg. Cambiar el id de la semana reinicia sus aprobados. */
 window.WEEKS = [
  {
-  "id": "w45-v4",
-  "label": "Semana 45 · 2–6 nov",
-  "title": "Semana del <em>2 al 6</em> de noviembre",
+  "id": "w46-v1",
+  "label": "Semana 46 · 9–13 nov",
+  "title": "Semana del <em>9 al 13</em> de noviembre",
   "items": [
    {
-    "id": "s45-lun",
-    "v": 6,
+    "id": "s46-lun",
+    "v": 1,
     "type": "story",
     "day": "Lunes",
-    "date": "2 nov",
-    "title": "Junto a la caja",
-    "n": 3,
-    "notes": []
-   },
-   {
-    "id": "p45-mar",
-    "v": 6,
-    "type": "post",
-    "day": "Martes",
-    "date": "3 nov",
-    "title": "La calefacción que van a pedirte",
-    "n": 5,
-    "notes": [],
-    "copy": "Sin calefactores, tu cliente se va 🔥\n\nYa llega el frío y tus clientes empiezan a buscar calefactor. Si no lo encuentran en tu tienda, lo compran en la de al lado:\n\n🛋️ Para el salón · calefactores de 2000 W con aire frío, tibio y caliente (Atlas 44884, Andes 44886, Fuji 44890).\n💻 Para el escritorio · cerámicos de mesa con termostato (Everest 44897, Elbrus 44947, Elbrus Plus 44948).\n⚡ Calor al momento · estufas de cuarzo plegables y con asa (Pirineo 44891, Himalaya 44894, Teide 44895).\n\n14 modelos en blanco, negro y gris para no perder ni una venta. 👉 Pide tu calefacción ya desde el enlace de la bio.\n\n#Criscolor #MayoristaNavidad #Bazares #TiendasDeBarrio #ComercioLocal #Navidad2026 #Calefaccion"
-   },
-   {
-    "id": "s45-mie",
-    "v": 6,
-    "type": "story",
-    "day": "Miércoles",
-    "date": "4 nov",
-    "title": "Llega el frío",
+    "date": "9 nov",
+    "title": "Deja de pasar frío",
     "n": 4,
     "notes": []
    },
    {
-    "id": "p45-jue",
-    "v": 6,
+    "id": "p46-mar",
+    "v": 1,
     "type": "post",
-    "day": "Jueves",
-    "date": "5 nov",
-    "title": "Pide a tiempo, vende más",
+    "day": "Martes",
+    "date": "10 nov",
+    "title": "Envuelve como un pro",
     "n": 5,
     "notes": [],
-    "copy": "Pide a tiempo, vende más 📅\n\nQuien pide tarde se queda sin stock en el momento clave. Esto es lo que necesitas y cuándo:\n\n❄️ Noviembre: primero, la calefacción.\n🎁 Diciembre: papel, bolsas, lazos y cajas.\n🥂 31 de diciembre: confeti, gafas y vajilla dorada.\n👑 Hasta el 6 de enero: globos y papel de Reyes, 12 días más de ventas.\n\nQue no te pille sin género. 👉 Haz tu pedido hoy desde el enlace de la bio.\n\n#Criscolor #MayoristaNavidad #Bazares #TiendasDeBarrio #ComercioLocal #Navidad2026"
+    "copy": "Cómo envolver un regalo que parezca de tienda 🎁\n\n1️⃣ Corta sin miedo: que el papel dé la vuelta entera a la caja y sobre un poco para solapar.\n2️⃣ Celo por dentro: dobla el borde antes de pegar y cierra las esquinas en triángulo.\n3️⃣ El remate: un lazo estrella adhesivo encima. Pegar y listo.\n\n¿Sin tiempo? Saco navideño o bolsa kraft y a correr 🏃\nGuárdalo para cuando te toque envolver.\n📍 Búscalo en tu tienda de barrio y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #ComercioDeBarrio #CompraEnTuBarrio #RegalosDeNavidad #EnvolverRegalos #PapelDeRegalo"
    },
    {
-    "id": "s45-vie",
-    "v": 6,
+    "id": "s46-mie",
+    "v": 1,
+    "type": "story",
+    "day": "Miércoles",
+    "date": "11 nov",
+    "title": "Papá Noel en tu ventana",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p46-jue",
+    "v": 1,
+    "type": "post",
+    "day": "Jueves",
+    "date": "12 nov",
+    "title": "¿Qué calefactor es el tuyo?",
+    "n": 5,
+    "notes": [],
+    "copy": "Este invierno, ni un día más de frío 🥶\n\n¿Cuál es el tuyo?\n🛋️ Para el salón: calefactores de 2000 W con aire frío, tibio o caliente.\n💻 Para trabajar: cerámicos de mesa con termostato, pequeños y fáciles de mover.\n⚡ Al instante: estufas de cuarzo, le das al botón y ya notas el calor.\n\nGuarda este post y no pases ni un día más temblando en casa.\n📍 Búscalo en tu tienda de barrio y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #ComercioDeBarrio #CompraEnTuBarrio #Calefactor #Calefaccion #Invierno"
+   },
+   {
+    "id": "s46-vie",
+    "v": 1,
     "type": "story",
     "day": "Viernes",
-    "date": "6 nov",
-    "title": "Pedir es fácil",
-    "n": 2,
+    "date": "13 nov",
+    "title": "El 31 y el 6",
+    "n": 3,
     "notes": []
    }
   ]
