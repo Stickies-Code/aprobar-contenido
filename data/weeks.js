@@ -7,7 +7,7 @@ window.WEEKS = [
   "items": [
    {
     "id": "s46-lun",
-    "v": 3,
+    "v": 4,
     "type": "story",
     "day": "Lunes",
     "date": "9 nov",
@@ -28,7 +28,7 @@ window.WEEKS = [
    },
    {
     "id": "s46-mie",
-    "v": 3,
+    "v": 4,
     "type": "story",
     "day": "Miércoles",
     "date": "11 nov",
@@ -49,7 +49,7 @@ window.WEEKS = [
    },
    {
     "id": "s46-vie",
-    "v": 3,
+    "v": 4,
     "type": "story",
     "day": "Viernes",
     "date": "13 nov",
