@@ -7,7 +7,7 @@ window.WEEKS = [
   "items": [
    {
     "id": "s46-lun",
-    "v": 4,
+    "v": 5,
     "type": "story",
     "day": "Lunes",
     "date": "9 nov",
@@ -17,7 +17,7 @@ window.WEEKS = [
    },
    {
     "id": "p46-mar",
-    "v": 3,
+    "v": 4,
     "type": "post",
     "day": "Martes",
     "date": "10 nov",
@@ -28,7 +28,7 @@ window.WEEKS = [
    },
    {
     "id": "s46-mie",
-    "v": 4,
+    "v": 5,
     "type": "story",
     "day": "Miércoles",
     "date": "11 nov",
@@ -38,7 +38,7 @@ window.WEEKS = [
    },
    {
     "id": "p46-jue",
-    "v": 3,
+    "v": 4,
     "type": "post",
     "day": "Jueves",
     "date": "12 nov",
@@ -49,7 +49,7 @@ window.WEEKS = [
    },
    {
     "id": "s46-vie",
-    "v": 4,
+    "v": 5,
     "type": "story",
     "day": "Viernes",
     "date": "13 nov",
