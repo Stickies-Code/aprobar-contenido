@@ -7,7 +7,7 @@ window.WEEKS = [
   "items": [
    {
     "id": "s46-lun",
-    "v": 5,
+    "v": 6,
     "type": "story",
     "day": "Lunes",
     "date": "2 nov",
@@ -17,18 +17,18 @@ window.WEEKS = [
    },
    {
     "id": "p46-mar",
-    "v": 4,
+    "v": 5,
     "type": "post",
     "day": "Martes",
     "date": "3 nov",
     "title": "Envuelve como un pro",
     "n": 5,
     "notes": [],
-    "copy": "Cómo envolver un regalo que parezca de tienda 🎁\n\n1️⃣ Corta sin miedo: que el papel dé la vuelta entera a la caja y sobre un poco para solapar.\n2️⃣ Celo por dentro: dobla el borde antes de pegar y cierra las esquinas en triángulo.\n3️⃣ El remate: un lazo estrella adhesivo encima. Pegar y listo.\n\n¿Sin tiempo? Saco navideño o bolsa kraft y a correr 🏃\nGuárdalo para cuando te toque envolver.\n📍 Búscalo en tu tienda de barrio y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #ComercioDeBarrio #CompraEnTuBarrio #RegalosDeNavidad #EnvolverRegalos #PapelDeRegalo"
+    "copy": "Cómo envolver un regalo que parezca de tienda 🎁\n\n1️⃣ Corta sin miedo: que el papel dé la vuelta entera a la caja y sobre un poco para solapar.\n2️⃣ Celo por dentro: dobla el borde antes de pegar y cierra las esquinas en triángulo.\n3️⃣ El remate: un lazo estrella adhesivo encima. Pegar y listo.\n\n¿Sin tiempo? Saco navideño o bolsa kraft y a correr 🏃\nGuárdalo para cuando te toque envolver.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #RegalosDeNavidad #EnvolverRegalos #PapelDeRegalo"
    },
    {
     "id": "s46-mie",
-    "v": 5,
+    "v": 6,
     "type": "story",
     "day": "Miércoles",
     "date": "4 nov",
@@ -38,18 +38,18 @@ window.WEEKS = [
    },
    {
     "id": "p46-jue",
-    "v": 4,
+    "v": 5,
     "type": "post",
     "day": "Jueves",
     "date": "5 nov",
     "title": "¿Qué calefactor es el tuyo?",
     "n": 5,
     "notes": [],
-    "copy": "Este invierno, ni un día más de frío 🥶\n\n¿Cuál es el tuyo?\n🛋️ Para el salón: calefactores de 2000 W con aire frío, tibio o caliente.\n💻 Para trabajar: cerámicos de mesa con termostato, pequeños y fáciles de mover.\n⚡ Al instante: estufas de cuarzo, le das al botón y ya notas el calor.\n\nGuarda este post y no pases ni un día más temblando en casa.\n📍 Búscalo en tu tienda de barrio y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #ComercioDeBarrio #CompraEnTuBarrio #Calefactor #Calefaccion #Invierno"
+    "copy": "Este invierno, ni un día más de frío 🥶\n\n¿Cuál es el tuyo?\n🛋️ Para el salón: calefactores de 2000 W con aire frío, tibio o caliente.\n💻 Para trabajar: cerámicos de mesa con termostato, pequeños y fáciles de mover.\n⚡ Al instante: estufas de cuarzo, le das al botón y ya notas el calor.\n\nGuarda este post y no pases ni un día más temblando en casa.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #Calefactor #Calefaccion #Invierno"
    },
    {
     "id": "s46-vie",
-    "v": 5,
+    "v": 6,
     "type": "story",
     "day": "Viernes",
     "date": "6 nov",
@@ -70,18 +70,18 @@ window.WEEKS = [
   "items": [
    {
     "id": "p46b-mar",
-    "v": 1,
+    "v": 2,
     "type": "post",
     "day": "Martes",
     "date": "10 nov",
     "title": "La caja ya es medio regalo",
     "n": 5,
     "notes": [],
-    "copy": "La caja ya es medio regalo 🎁\n\n01 · Redondas, una dentro de otra: 10 tamaños, de 8 a 22 cm.\n02 · Con forma de estrella, en rojo o en purpurina plata.\n03 · Con asa, listas para llevar a casa de quien toque.\n04 · Metalizadas en oro, plata o rojo.\n\nMetes el regalo, cierras la tapa y listo. Sin papel y sin celo.\n¿Cuál elegirías tú? 👇\n📍 Búscalo en tu tienda de barrio y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #ComercioDeBarrio #CompraEnTuBarrio #RegalosDeNavidad #CajasDeRegalo"
+    "copy": "La caja ya es medio regalo 🎁\n\n01 · Redondas, una dentro de otra: 10 tamaños, de 8 a 22 cm.\n02 · Con forma de estrella, en rojo o en purpurina plata.\n03 · Con asa, listas para llevar a casa de quien toque.\n04 · Metalizadas en oro, plata o rojo.\n\nMetes el regalo, cierras la tapa y listo. Sin papel y sin celo.\n¿Cuál elegirías tú? 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #RegalosDeNavidad #CajasDeRegalo"
    },
    {
     "id": "s46b-mie",
-    "v": 1,
+    "v": 2,
     "type": "story",
     "day": "Miércoles",
     "date": "11 nov",
@@ -91,18 +91,18 @@ window.WEEKS = [
    },
    {
     "id": "p46b-jue",
-    "v": 1,
+    "v": 2,
     "type": "post",
     "day": "Jueves",
     "date": "12 nov",
     "title": "Calefactor Everest",
     "n": 3,
     "notes": [],
-    "copy": "1500 W en solo 17,5 cm de alto 🔥\n\nEl calefactor Everest es pequeño, pero no se queda corto:\n❄️ Aire frío, tibio o caliente\n⚡ 2 potencias, hasta 1500 W\n🌡️ Termostato ajustable\n🎨 En varios colores\n\nCabe en cualquier mesa: la del salón, la del escritorio o la mesilla.\n📍 Búscalo en tu tienda de barrio y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #ComercioDeBarrio #CompraEnTuBarrio #Calefactor #Calefaccion #Invierno"
+    "copy": "1500 W en solo 17,5 cm de alto 🔥\n\nEl calefactor Everest es pequeño, pero no se queda corto:\n❄️ Aire frío, tibio o caliente\n⚡ 2 potencias, hasta 1500 W\n🌡️ Termostato ajustable\n🎨 En varios colores\n\nCabe en cualquier mesa: la del salón, la del escritorio o la mesilla.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #Calefactor #Calefaccion #Invierno"
    },
    {
     "id": "s46b-vie",
-    "v": 1,
+    "v": 2,
     "type": "story",
     "day": "Viernes",
     "date": "13 nov",
@@ -112,7 +112,7 @@ window.WEEKS = [
    },
    {
     "id": "s46b-sab",
-    "v": 1,
+    "v": 2,
     "type": "story",
     "day": "Sábado",
     "date": "14 nov",
