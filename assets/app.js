@@ -9,12 +9,15 @@ const store = {
 const MONTHS = { ene: 'enero', feb: 'febrero', mar: 'marzo', abr: 'abril', may: 'mayo', jun: 'junio', jul: 'julio', ago: 'agosto', sep: 'septiembre', oct: 'octubre', nov: 'noviembre', dic: 'diciembre' };
 const longDate = d => { const [n, m] = String(d).split(' '); return `${n} de ${MONTHS[m] || m}`; };
 
-let week = WEEKS[WEEKS.length - 1];
+// Semana actual: la que contiene hoy (start/end en weeks.js); si no hay, la más reciente que ya empezó; si no, la última.
+const today = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })();
+const current = WEEKS.find(w => w.start && w.end && w.start <= today && today <= w.end)
+  || [...WEEKS].reverse().find(w => w.start && w.start <= today) || WEEKS[WEEKS.length - 1];
+let week = current;
 const fromHash = location.hash.slice(1);
 if (WEEKS.find(w => w.id === fromHash)) week = WEEKS.find(w => w.id === fromHash);
-else if (WEEKS.find(w => w.id === store.get('crisWeek'))) week = WEEKS.find(w => w.id === store.get('crisWeek'));
 
-const state = { reviews: {}, ok: false };
+const state = { reviews: {}, uploads: {}, ok: false };
 let myName = store.get('crisName') || '';
 
 const fmtDate = iso => { try { return new Date(iso).toLocaleString('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }); } catch (e) { return ''; } };
@@ -40,8 +43,9 @@ $('#nameCancel').addEventListener('click', () => { $('#nameModal').hidden = true
 const withName = fn => myName ? fn() : askName(fn);
 
 function renderWeeks() {
-  $('#weeks').innerHTML = WEEKS.map(w => `<button type="button" data-w="${w.id}" aria-pressed="${w === week}">${esc(w.label)}</button>`).join('');
-  $('#weeks').hidden = WEEKS.length < 2;
+  const sel = $('#weekSel');
+  sel.innerHTML = [...WEEKS].reverse().map(w => `<option value="${w.id}"${w === week ? ' selected' : ''}>${esc(String(w.title || w.label).replace(/<[^>]+>/g, ''))}${w === current ? ' · esta semana' : ''}</option>`).join('');
+  $('#wkNow').hidden = week !== current;
 }
 function renderCards() {
   $('#wkTitle').innerHTML = week.title;
@@ -50,7 +54,10 @@ function renderCards() {
       `<div class="frame"><img src="/img/${it.id}-${i + 1}.jpg?v=${it.v || 1}" alt="${it.type === 'post' ? 'Diapositiva' : 'Historia'} ${i + 1} de ${it.n}" loading="lazy">${it.n > 1 ? `<span class="n">${i + 1}/${it.n}</span>` : ''}</div>`).join('');
     const kind = it.type === 'post' ? `Post · ${it.n} ${it.n === 1 ? 'imagen' : 'diapositivas'}` : `Historias · ${it.n}`;
     return `<article class="card ${it.type}" id="${it.id}" data-id="${it.id}">
-      <div class="card-h"><h2>${esc(it.day)} ${esc(longDate(it.date))} <span>· ${kind}</span></h2><span class="badge" data-badge>Pendiente</span></div>
+      <div class="card-h"><h2>${esc(it.day)} ${esc(longDate(it.date))} <span>· ${kind}</span></h2>
+        <div class="card-r"><span class="badge" data-badge>Pendiente</span>
+          <label class="up"><input type="checkbox" data-up><span class="box" aria-hidden="true"></span><span class="t">Subido</span></label></div>
+        <p class="upwho" data-upwho hidden></p></div>
       <div class="media">${frames}</div>
       ${it.copy ? `<details class="copywrap"><summary>Texto del post</summary><div class="copybody"><pre class="copy">${esc(it.copy)}</pre><button type="button" class="copybtn" data-copy>Copiar texto</button></div></details>` : ''}
       <div class="review">
@@ -73,7 +80,16 @@ function renderStatus() {
     badge.textContent = st === 'ok' ? '✓ Aprobado' : st === 'no' ? '✕ No aprobado' : 'Pendiente';
     card.querySelectorAll('[data-vote]').forEach(b => { b.setAttribute('aria-pressed', b.dataset.vote === st); b.disabled = !state.ok; });
     $('[data-who]', card).textContent = st ? `${st === 'ok' ? 'Aprobado' : 'No aprobado'} por ${r.by || 'alguien'} · ${fmtDate(r.at)}` : '';
+    const u = state.uploads[it.id]; const cb = $('[data-up]', card);
+    cb.checked = Boolean(u && u.done); cb.disabled = !state.ok;
+    card.classList.toggle('is-up', cb.checked);
+    const uw = $('[data-upwho]', card); uw.hidden = !cb.checked;
+    uw.textContent = cb.checked ? `Subido${u.by ? ' por ' + u.by : ''} · ${fmtDate(u.at)}` : '';
   }
+  const n = week.items.length;
+  const ok = week.items.filter(it => statusOf(state.reviews[it.id]) === 'ok').length;
+  const up = week.items.filter(it => state.uploads[it.id] && state.uploads[it.id].done).length;
+  $('#wkSum').innerHTML = state.ok ? `<b>${ok}/${n}</b> aprobadas · <b>${up}/${n}</b> subidas` : '';
 }
 function renderAll() { renderWeeks(); renderCards(); renderStatus(); }
 
@@ -82,7 +98,7 @@ async function load() {
   if (loading) return; loading = true;
   try {
     const j = await api(`/api/state?week=${encodeURIComponent(week.id)}`);
-    state.reviews = j.reviews || {}; state.ok = true;
+    state.reviews = j.reviews || {}; state.uploads = j.uploads || {}; state.ok = true;
     if ($('#notice').dataset.kind === 'conn') { notice(''); $('#notice').dataset.kind = ''; }
   } catch (e) {
     state.ok = false; $('#notice').dataset.kind = 'conn';
@@ -91,10 +107,18 @@ async function load() {
   loading = false; renderStatus();
 }
 
-$('#weeks').addEventListener('click', e => {
-  const b = e.target.closest('button[data-w]'); if (!b) return;
-  week = WEEKS.find(w => w.id === b.dataset.w); store.set('crisWeek', week.id);
-  state.reviews = {}; renderAll(); load();
+$('#weekSel').addEventListener('change', e => {
+  week = WEEKS.find(w => w.id === e.target.value) || current;
+  history.replaceState(null, '', week === current ? location.pathname : '#' + week.id);
+  state.reviews = {}; state.uploads = {}; renderAll(); load(); window.scrollTo(0, 0);
+});
+document.addEventListener('change', async e => {
+  const cb = e.target.closest('[data-up]'); if (!cb || !state.ok) return;
+  const id = cb.closest('.card').dataset.id; const done = cb.checked;
+  cb.disabled = true;
+  try { const j = await api('/api/uploaded', { method: 'POST', body: JSON.stringify({ week: week.id, item: id, done, name: myName }) }); if (j.upload) state.uploads[id] = j.upload; else delete state.uploads[id]; }
+  catch (err) { notice('No se ha podido guardar «Subido». Inténtalo de nuevo.'); }
+  renderStatus();
 });
 document.addEventListener('click', async e => {
   const img = e.target.closest('.frame img');

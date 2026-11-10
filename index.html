@@ -8,15 +8,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="/assets/app.css?v=6">
+<link rel="stylesheet" href="/assets/app.css?v=7">
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <img class="logo logo-l" src="/assets/logo.svg" alt="Criscolor" width="155" height="31">
-    <img class="logo logo-d" src="/assets/logo-w.svg" alt="" aria-hidden="true" width="155" height="31">
+    <div class="bar">
+      <img class="logo logo-l" src="/assets/logo.svg" alt="Criscolor" width="155" height="31">
+      <img class="logo logo-d" src="/assets/logo-w.svg" alt="" aria-hidden="true" width="155" height="31">
+      <label class="wkpick" for="weekSel"><span>Ver semana</span>
+        <select id="weekSel"></select>
+      </label>
+    </div>
+    <p class="now" id="wkNow" hidden>Esta semana</p>
     <h1 id="wkTitle">Semana</h1>
-    <div class="weeks" id="weeks" role="group" aria-label="Semana"></div>
+    <p class="sum" id="wkSum"></p>
     <p class="notice" id="notice" hidden></p>
   </header>
   <main id="main"></main>
@@ -31,7 +37,7 @@
   </form>
 </div>
 
-<script src="/data/weeks.js?v=13"></script>
-<script src="/assets/app.js?v=4"></script>
+<script src="/data/weeks.js?v=14"></script>
+<script src="/assets/app.js?v=5"></script>
 </body>
 </html>

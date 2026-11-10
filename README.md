@@ -16,13 +16,15 @@ Web para que dirección apruebe o comente cada semana los posts (martes y jueves
 - Los posts llevan su texto en el desplegable «Texto del post», con botón de copiar.
 - Cada persona escribe su nombre la primera vez (se guarda en su navegador).
 - La página se actualiza sola cada 20 s, así que ves las valoraciones en directo.
-- Datos en Redis: `rev:<semana>` → `{ status: 'ok' | 'no', by, at }` por pieza.
+- Cada pieza tiene arriba a la derecha la casilla **Subido** para marcar lo que ya está publicado en Instagram (se guarda para todos).
+- Arriba del todo, el selector **Ver semana** abre semanas anteriores. Por defecto se abre la semana que contiene hoy (`start`/`end` en `data/weeks.js`).
+- Datos en Redis: `rev:<semana>` → `{ status: 'ok' | 'no', by, at }` y `up:<semana>` → `{ done, by, at }` por pieza.
 
 ## Añadir una semana
 
 1. Sube las imágenes a `/img` con el nombre `<id de la pieza>-<n>.jpg` (p. ej. `p46-mar-1.jpg`), en 4:5 para posts y 9:16 para historias, ~810 px de ancho.
-2. Añade el bloque de la semana al final de `data/weeks.js` (copia el anterior y cambia `id`, fechas, textos y `n` = nº de imágenes).
-3. Commit + push: Vercel lo publica y la nueva semana aparece como pestaña (la última es la que se abre por defecto). Enlace directo a una semana: `/#w46`.
+2. Añade el bloque de la semana al final de `data/weeks.js` (copia el anterior y cambia `id`, `start`/`end`, fechas, textos y `n` = nº de imágenes).
+3. Commit + push: Vercel lo publica y la nueva semana aparece en el selector. Enlace directo a una semana: `/#w46`.
 4. Si cambias una imagen ya publicada, súbele `v: 2` a esa pieza para saltar la caché.
 
 ## En local
