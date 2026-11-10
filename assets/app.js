@@ -7,6 +7,10 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
 };
 const MONTHS = { ene: 'enero', feb: 'febrero', mar: 'marzo', abr: 'abril', may: 'mayo', jun: 'junio', jul: 'julio', ago: 'agosto', sep: 'septiembre', oct: 'octubre', nov: 'noviembre', dic: 'diciembre' };
+const MNUM = { ene: '01', feb: '02', mar: '03', abr: '04', may: '05', jun: '06', jul: '07', ago: '08', sep: '09', oct: '10', nov: '11', dic: '12' };
+/* Número de pieza: día + mes (10 nov → 1011). Coincide con el nombre de la carpeta del escritorio. */
+const codeOf = it => { const [n, m] = String(it.date).split(' '); return `${String(n).padStart(2, '0')}${MNUM[m] || ''}`; };
+const nameOf = it => `${it.type === 'post' ? 'Post' : 'Story'} ${codeOf(it)}`;
 const longDate = d => { const [n, m] = String(d).split(' '); return `${n} de ${MONTHS[m] || m}`; };
 
 // Semana actual: la que contiene hoy (start/end en weeks.js); si no hay, la más reciente que ya empezó; si no, la última.
@@ -51,10 +55,10 @@ function renderCards() {
   $('#wkTitle').innerHTML = week.title;
   $('#main').innerHTML = week.items.map(it => {
     const frames = Array.from({ length: it.n }, (_, i) =>
-      `<div class="frame"><img src="/img/${it.id}-${i + 1}.jpg?v=${it.v || 1}" alt="${it.type === 'post' ? 'Diapositiva' : 'Historia'} ${i + 1} de ${it.n}" loading="lazy">${it.n > 1 ? `<span class="n">${i + 1}/${it.n}</span>` : ''}</div>`).join('');
-    const kind = it.type === 'post' ? `Post · ${it.n} ${it.n === 1 ? 'imagen' : 'diapositivas'}` : `Historias · ${it.n}`;
+      `<div class="frame"><img src="/img/${it.id}-${i + 1}.jpg?v=${it.v || 1}" alt="${it.type === 'post' ? 'Diapositiva' : 'Historia'} ${i + 1} de ${it.n}" loading="lazy"><span class="n">${esc(it.n > 1 ? `${nameOf(it)}.${i + 1}` : nameOf(it))}</span></div>`).join('');
+    const kind = it.type === 'post' ? `${it.n} ${it.n === 1 ? 'imagen' : 'diapositivas'}` : `${it.n} ${it.n === 1 ? 'historia' : 'historias'}`;
     return `<article class="card ${it.type}" id="${it.id}" data-id="${it.id}">
-      <div class="card-h"><h2>${esc(it.day)} ${esc(longDate(it.date))} <span>· ${kind}</span></h2>
+      <div class="card-h"><h2><b class="code">${esc(nameOf(it))}</b> ${esc(it.day)} ${esc(longDate(it.date))} <span>· ${kind}</span></h2>
         <div class="card-r"><span class="badge" data-badge>Pendiente</span>
           <label class="up"><input type="checkbox" data-up><span class="box" aria-hidden="true"></span><span class="t">Subido</span></label></div>
         <p class="upwho" data-upwho hidden></p></div>

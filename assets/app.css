@@ -108,3 +108,5 @@ details.copywrap[open] summary::after{transform:rotate(180deg)}
   details.copywrap{margin:0 14px 16px}
   .vote{font-size:19px;padding:18px 10px}
 }
+
+.card-h h2 .code{display:inline-block;background:var(--navy);color:#fff;font-size:.62em;font-weight:900;letter-spacing:.02em;padding:6px 12px;border-radius:10px;vertical-align:.18em;margin-right:6px;user-select:all}
