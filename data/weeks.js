@@ -121,5 +121,66 @@ window.WEEKS = [
     "notes": []
    }
   ]
+ },
+ {
+  "id": "w47",
+  "label": "16–20 nov",
+  "title": "Semana del <em>16 al 20</em> de noviembre",
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "items": [
+   {
+    "id": "s47-lun",
+    "v": 1,
+    "type": "story",
+    "day": "Lunes",
+    "date": "16 nov",
+    "title": "Huellas de Papá Noel",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p47-mar",
+    "v": 1,
+    "type": "post",
+    "day": "Martes",
+    "date": "17 nov",
+    "title": "Que se note desde la calle",
+    "n": 5,
+    "notes": [],
+    "copy": "Que tu casa se note desde la calle 🏠✨\n\n01 · Pegatinas metalizadas para que las ventanas brillen.\n02 · Pegatinas de Papá Noel y muñecos de nieve para la ventana de los peques.\n03 · Bandera de los Reyes Magos de 2 × 1,5 m, con ollados para colgarla en el balcón.\n04 · Letras de «Feliz Navidad» para colgar en la puerta.\n\n¿Por cuál empiezas? 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por la decoración Criscolor.\n\n#Criscolor #Navidad2026 #DecoracionNavidad #TiendaMultiprecio #CompraCerca #ReyesMagos #Navidad"
+   },
+   {
+    "id": "s47-mie",
+    "v": 1,
+    "type": "story",
+    "day": "Miércoles",
+    "date": "18 nov",
+    "title": "Un saco para cada uno",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p47-jue",
+    "v": 1,
+    "type": "post",
+    "day": "Jueves",
+    "date": "19 nov",
+    "title": "¿Bobina de 31 o de 62 cm?",
+    "n": 4,
+    "notes": [],
+    "copy": "¿Bobina de 31 o de 62 cm? Te lo ponemos fácil 🎁\n\n✂️ 31 cm: para regalos pequeños, como libros, perfumes o detalles.\n📦 62 cm: para los grandes, como juguetes, cajas o cestas.\n\nPrimero elige el diseño (liso, navideño, infantil o de Reyes) y luego el ancho que necesitas.\n\n📍 Búscalas en tu tienda multiprecio más cercana y pregunta por las bobinas de papel de regalo Criscolor.\n\n#Criscolor #Navidad2026 #PapelDeRegalo #EnvolverRegalos #TiendaMultiprecio #CompraCerca #Regalos"
+   },
+   {
+    "id": "s47-vie",
+    "v": 1,
+    "type": "story",
+    "day": "Viernes",
+    "date": "20 nov",
+    "title": "La carta",
+    "n": 3,
+    "notes": []
+   }
+  ]
  }
 ];
