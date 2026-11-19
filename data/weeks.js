@@ -182,5 +182,127 @@ window.WEEKS = [
     "notes": []
    }
   ]
+ },
+ {
+  "id": "w48",
+  "label": "23–27 nov · Nuevo formato",
+  "title": "Nuevo formato · <em>23–27</em> de noviembre",
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "items": [
+   {
+    "id": "s48-lun",
+    "v": 1,
+    "type": "story",
+    "day": "Lunes",
+    "date": "23 nov",
+    "title": "Empieza la cuenta atrás",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p48-mar",
+    "v": 1,
+    "type": "post",
+    "day": "Martes",
+    "date": "24 nov",
+    "title": "¿Ya tienes el papel de regalo?",
+    "n": 10,
+    "notes": [],
+    "copy": "¿Ya tienes el papel de regalo? 🎁\n\nDesliza y elige el tuyo:\n01 · Stars ⭐\n02 · Cascanueces 💂\n03 · Elfos 🧝\n04 · Nieve Azul ❄️\n05 · Árboles 🎄\n06 · Galletas 🍪\n07 · Bolas 🔴\n08 · Reno 🦌\n09 · Kraft Deco 🌿\n\n¿Con cuál envolverías tú este año? Dinos el número en comentarios 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #PapelDeRegalo #EnvolverRegalos #RegalosDeNavidad"
+   },
+   {
+    "id": "s48-mie",
+    "v": 1,
+    "type": "story",
+    "day": "Miércoles",
+    "date": "25 nov",
+    "title": "¿Qué mesa eres tú?",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p48-jue",
+    "v": 1,
+    "type": "post",
+    "day": "Jueves",
+    "date": "26 nov",
+    "title": "La mesa más bonita del año",
+    "n": 8,
+    "notes": [],
+    "copy": "La mesa más bonita del año empieza aquí ✨\n\n¿Cuál va a ser la tuya?\n01 · Plata, para una Nochebuena elegante 🥂\n02 · Merry Christmas, para el desayuno del 25 🥐\n03 · Flor de Navidad, para la comida en familia 🌺\n04 · Cuadros, para la merienda con chocolate ☕\n05 · Bolas y lazo, para la sobremesa del turrón 🎀\n06 · Papá Noel y renos, para la mesa de los peques 🎅\n07 · Todo en azul, con mantel navideño y vajilla plata 💙\n\nVasos, platos, servilletas, bandejas y manteles a juego. Pones la mesa en un momento y después recoges en nada.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #MesaDeNavidad #Nochebuena #DecoracionNavidad"
+   },
+   {
+    "id": "s48-vie",
+    "v": 1,
+    "type": "story",
+    "day": "Viernes",
+    "date": "27 nov",
+    "title": "Viernes de compras",
+    "n": 3,
+    "notes": []
+   }
+  ]
+ },
+ {
+  "id": "w49",
+  "label": "30 nov–4 dic · Nuevo formato",
+  "title": "Nuevo formato · <em>30 nov–4</em> de diciembre",
+  "start": "2026-11-30",
+  "end": "2026-12-06",
+  "items": [
+   {
+    "id": "s49-lun",
+    "v": 1,
+    "type": "story",
+    "day": "Lunes",
+    "date": "30 nov",
+    "title": "Llega diciembre",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p49-mar",
+    "v": 1,
+    "type": "post",
+    "day": "Martes",
+    "date": "1 dic",
+    "title": "Este año, la Navidad es azul",
+    "n": 4,
+    "notes": [],
+    "copy": "Este año, la Navidad es azul 💙\n\nPara conseguirlo solo necesitas tres cosas:\n🎁 Papel de regalo Nieve Azul, con lunares blancos.\n🎀 Lazos automáticos en plata: tiras de la cinta y se forman solos.\n🥂 Vasos y platos metalizados en plata para la cena.\n\nGuarda este post para cuando te pongas con la decoración.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #NavidadAzul #DecoracionNavidad #PapelDeRegalo"
+   },
+   {
+    "id": "s49-mie",
+    "v": 1,
+    "type": "story",
+    "day": "Miércoles",
+    "date": "2 dic",
+    "title": "El remate perfecto",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p49-jue",
+    "v": 1,
+    "type": "post",
+    "day": "Jueves",
+    "date": "3 dic",
+    "title": "4 formas de envolver",
+    "n": 5,
+    "notes": [],
+    "copy": "4 formas de envolver este año 🎁\n\n01 · Papel y lazo: papel Cascanueces y un lazo encima. La de toda la vida.\n02 · Lazos automáticos: envuelve en liso y remata con un lazo rojo o dorado.\n03 · Caja metalizada: cajas en oro, una dentro de otra. Metes el regalo y cierras.\n04 · Bolsa y listo: bolsa kraft o roja con asa, para los regalos de última hora.\n\n¿Tú eres más de papel o de bolsa? 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #EnvolverRegalos #PapelDeRegalo #RegalosDeNavidad"
+   },
+   {
+    "id": "s49-vie",
+    "v": 1,
+    "type": "story",
+    "day": "Viernes",
+    "date": "4 dic",
+    "title": "Plan del 25",
+    "n": 3,
+    "notes": []
+   }
+  ]
  }
 ];
