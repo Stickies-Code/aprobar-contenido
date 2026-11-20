@@ -192,18 +192,18 @@ window.WEEKS = [
   "items": [
    {
     "id": "p48-lun",
-    "v": 2,
+    "v": 3,
     "type": "post",
     "day": "Lunes",
     "date": "23 nov",
-    "title": "¿Ya tienes el papel de regalo?",
-    "n": 10,
+    "title": "Monta tu mesa de Navidad a juego",
+    "n": 5,
     "notes": [],
-    "copy": "¿Ya tienes el papel de regalo? 🎁\n\nDesliza y elige el tuyo:\n01 · Stars ⭐\n02 · Cascanueces 💂\n03 · Elfos 🧝\n04 · Nieve Azul ❄️\n05 · Árboles 🎄\n06 · Galletas 🍪\n07 · Bolas 🔴\n08 · Reno 🦌\n09 · Kraft Deco 🌿\n\n¿Con cuál envolverías tú este año? Dinos el número en comentarios 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #PapelDeRegalo #EnvolverRegalos #RegalosDeNavidad"
+    "copy": "Monta tu mesa de Navidad a juego 🍽️\n\n01 · Dorado, para la Nochebuena ✨\n02 · Plata, para brindar 🥂\n03 · Flor de Navidad, para la comida en familia 🌺\n04 · Papá Noel y renos, para la mesa de los peques 🎅\n\nVasos, platos, servilletas y bandejas del mismo diseño: pones la mesa en un momento y después recoges en nada.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por la vajilla de Navidad Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #MesaDeNavidad #Nochebuena #VajillaNavidad"
    },
    {
     "id": "s48-mar",
-    "v": 2,
+    "v": 3,
     "type": "story",
     "day": "Martes",
     "date": "24 nov",
@@ -213,18 +213,18 @@ window.WEEKS = [
    },
    {
     "id": "p48-mie",
-    "v": 2,
+    "v": 3,
     "type": "post",
     "day": "Miércoles",
     "date": "25 nov",
-    "title": "Monta tu mesa de Navidad a juego",
-    "n": 5,
+    "title": "¿Ya tienes el papel de regalo?",
+    "n": 10,
     "notes": [],
-    "copy": "Monta tu mesa de Navidad a juego 🍽️\n\n01 · Dorado, para la Nochebuena ✨\n02 · Plata, para brindar 🥂\n03 · Flor de Navidad, para la comida en familia 🌺\n04 · Papá Noel y renos, para la mesa de los peques 🎅\n\nVasos, platos, servilletas y bandejas del mismo diseño: pones la mesa en un momento y después recoges en nada.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por la vajilla de Navidad Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #MesaDeNavidad #Nochebuena #VajillaNavidad"
+    "copy": "¿Ya tienes el papel de regalo? 🎁\n\nDesliza y elige el tuyo:\n01 · Stars ⭐\n02 · Cascanueces 💂\n03 · Elfos 🧝\n04 · Nieve Azul ❄️\n05 · Árboles 🎄\n06 · Galletas 🍪\n07 · Bolas 🔴\n08 · Reno 🦌\n09 · Kraft Deco 🌿\n\n¿Con cuál envolverías tú este año? Dinos el número en comentarios 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #PapelDeRegalo #EnvolverRegalos #RegalosDeNavidad"
    },
    {
     "id": "s48-jue",
-    "v": 2,
+    "v": 3,
     "type": "story",
     "day": "Jueves",
     "date": "26 nov",
@@ -234,7 +234,7 @@ window.WEEKS = [
    },
    {
     "id": "p48-vie",
-    "v": 2,
+    "v": 3,
     "type": "post",
     "day": "Viernes",
     "date": "27 nov",
@@ -253,56 +253,57 @@ window.WEEKS = [
   "end": "2026-12-06",
   "items": [
    {
-    "id": "s49-lun",
-    "v": 1,
-    "type": "story",
+    "id": "p49-lun",
+    "v": 3,
+    "type": "post",
     "day": "Lunes",
     "date": "30 nov",
-    "title": "Llega diciembre",
-    "n": 3,
-    "notes": []
-   },
-   {
-    "id": "p49-mar",
-    "v": 1,
-    "type": "post",
-    "day": "Martes",
-    "date": "1 dic",
     "title": "Este año, la Navidad es azul",
     "n": 4,
     "notes": [],
     "copy": "Este año, la Navidad es azul 💙\n\nPara conseguirlo solo necesitas tres cosas:\n🎁 Papel de regalo Nieve Azul, con lunares blancos.\n🎀 Lazos automáticos en plata: tiras de la cinta y se forman solos.\n🥂 Vasos y platos metalizados en plata para la cena.\n\nGuarda este post para cuando te pongas con la decoración.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #NavidadAzul #DecoracionNavidad #PapelDeRegalo"
    },
    {
-    "id": "s49-mie",
-    "v": 1,
+    "id": "s49-mar",
+    "v": 3,
     "type": "story",
+    "day": "Martes",
+    "date": "1 dic",
+    "title": "Llega diciembre",
+    "n": 3,
+    "notes": []
+   },
+   {
+    "id": "p49-mie",
+    "v": 3,
+    "type": "post",
     "day": "Miércoles",
     "date": "2 dic",
+    "title": "¿Y si este año la fiesta va de globos?",
+    "n": 5,
+    "notes": [],
+    "copy": "¿Y si este año la fiesta va de globos? 🎈\n\n01 · Feliz Navidad, letra a letra ✨\n02 · Gigantes para el salón: Papá Noel de 125 cm y árbol de 127 cm 🎅🎄\n03 · Cascanueces y muñeco de nieve ☃️\n04 · Sets de 5 globos para llenarlo todo 🎉\n\n¿Cuál pondrías tú en casa? Cuéntanos 👇\n📍 Búscalos en tu tienda multiprecio más cercana y pregunta por los globos de Navidad Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #GlobosNavidad #FiestaNavidad #DecoracionNavidad"
+   },
+   {
+    "id": "s49-jue",
+    "v": 3,
+    "type": "story",
+    "day": "Jueves",
+    "date": "3 dic",
     "title": "El remate perfecto",
     "n": 3,
     "notes": []
    },
    {
-    "id": "p49-jue",
-    "v": 1,
+    "id": "p49-vie",
+    "v": 3,
     "type": "post",
-    "day": "Jueves",
-    "date": "3 dic",
-    "title": "4 formas de envolver",
-    "n": 5,
-    "notes": [],
-    "copy": "4 formas de envolver este año 🎁\n\n01 · Papel y lazo: papel Cascanueces y un lazo encima. La de toda la vida.\n02 · Lazos automáticos: envuelve en liso y remata con un lazo rojo o dorado.\n03 · Caja metalizada: cajas en oro, una dentro de otra. Metes el regalo y cierras.\n04 · Bolsa y listo: bolsa kraft o roja con asa, para los regalos de última hora.\n\n¿Tú eres más de papel o de bolsa? 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #EnvolverRegalos #PapelDeRegalo #RegalosDeNavidad"
-   },
-   {
-    "id": "s49-vie",
-    "v": 1,
-    "type": "story",
     "day": "Viernes",
     "date": "4 dic",
     "title": "Plan del 25",
     "n": 3,
-    "notes": []
+    "notes": [],
+    "copy": "Plan del 25 ☕🥐\n\nDesayuno con la vajilla Merry Christmas, el turrón en plato Flor de Navidad y la sobremesa con servilletas de bolas y lazo. La mesa puesta en un momento, y después a recoger en nada.\n\n¿Cómo es el desayuno de Navidad en tu casa? 👇\n📍 Todo en tu tienda multiprecio más cercana. Pregunta por la vajilla de Navidad Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #MesaDeNavidad #DesayunoNavidad #VajillaNavidad"
    }
   ]
  }
