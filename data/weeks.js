@@ -191,56 +191,57 @@ window.WEEKS = [
   "end": "2026-11-29",
   "items": [
    {
-    "id": "s48-lun",
-    "v": 1,
-    "type": "story",
+    "id": "p48-lun",
+    "v": 2,
+    "type": "post",
     "day": "Lunes",
     "date": "23 nov",
-    "title": "Empieza la cuenta atrás",
-    "n": 3,
-    "notes": []
-   },
-   {
-    "id": "p48-mar",
-    "v": 1,
-    "type": "post",
-    "day": "Martes",
-    "date": "24 nov",
     "title": "¿Ya tienes el papel de regalo?",
     "n": 10,
     "notes": [],
     "copy": "¿Ya tienes el papel de regalo? 🎁\n\nDesliza y elige el tuyo:\n01 · Stars ⭐\n02 · Cascanueces 💂\n03 · Elfos 🧝\n04 · Nieve Azul ❄️\n05 · Árboles 🎄\n06 · Galletas 🍪\n07 · Bolas 🔴\n08 · Reno 🦌\n09 · Kraft Deco 🌿\n\n¿Con cuál envolverías tú este año? Dinos el número en comentarios 👇\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #PapelDeRegalo #EnvolverRegalos #RegalosDeNavidad"
    },
    {
-    "id": "s48-mie",
-    "v": 1,
+    "id": "s48-mar",
+    "v": 2,
     "type": "story",
-    "day": "Miércoles",
-    "date": "25 nov",
+    "day": "Martes",
+    "date": "24 nov",
     "title": "¿Qué mesa eres tú?",
     "n": 3,
     "notes": []
    },
    {
-    "id": "p48-jue",
-    "v": 1,
+    "id": "p48-mie",
+    "v": 2,
     "type": "post",
-    "day": "Jueves",
-    "date": "26 nov",
-    "title": "La mesa más bonita del año",
-    "n": 8,
+    "day": "Miércoles",
+    "date": "25 nov",
+    "title": "Monta tu mesa de Navidad a juego",
+    "n": 5,
     "notes": [],
-    "copy": "La mesa más bonita del año empieza aquí ✨\n\n¿Cuál va a ser la tuya?\n01 · Plata, para una Nochebuena elegante 🥂\n02 · Merry Christmas, para el desayuno del 25 🥐\n03 · Flor de Navidad, para la comida en familia 🌺\n04 · Cuadros, para la merienda con chocolate ☕\n05 · Bolas y lazo, para la sobremesa del turrón 🎀\n06 · Papá Noel y renos, para la mesa de los peques 🎅\n07 · Todo en azul, con mantel navideño y vajilla plata 💙\n\nVasos, platos, servilletas, bandejas y manteles a juego. Pones la mesa en un momento y después recoges en nada.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #MesaDeNavidad #Nochebuena #DecoracionNavidad"
+    "copy": "Monta tu mesa de Navidad a juego 🍽️\n\n01 · Dorado, para la Nochebuena ✨\n02 · Plata, para brindar 🥂\n03 · Flor de Navidad, para la comida en familia 🌺\n04 · Papá Noel y renos, para la mesa de los peques 🎅\n\nVasos, platos, servilletas y bandejas del mismo diseño: pones la mesa en un momento y después recoges en nada.\n📍 Búscalo en tu tienda multiprecio más cercana y pregunta por la vajilla de Navidad Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #MesaDeNavidad #Nochebuena #VajillaNavidad"
    },
    {
-    "id": "s48-vie",
-    "v": 1,
+    "id": "s48-jue",
+    "v": 2,
     "type": "story",
-    "day": "Viernes",
-    "date": "27 nov",
-    "title": "Viernes de compras",
+    "day": "Jueves",
+    "date": "26 nov",
+    "title": "Empieza la cuenta atrás",
     "n": 3,
     "notes": []
+   },
+   {
+    "id": "p48-vie",
+    "v": 2,
+    "type": "post",
+    "day": "Viernes",
+    "date": "27 nov",
+    "title": "Ya huele a Navidad",
+    "n": 3,
+    "notes": [],
+    "copy": "Ya huele a Navidad en casa 🎄\n\nRegalos envueltos en papel Nieve Azul, la mesa vestida de plata y los lazos preparados para el último regalo.\n\n¿Tú ya has empezado o eres de última hora? 👇\n📍 Todo en tu tienda multiprecio más cercana. Pregunta por los productos Criscolor.\n\n#Criscolor #Navidad2026 #TiendaMultiprecio #CompraCerca #NavidadEnCasa #PapelDeRegalo #DecoracionNavidad"
    }
   ]
  },
